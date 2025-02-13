@@ -1,0 +1,55 @@
+app/
+├── src/
+│   └── main/
+│       ├── java/com/battlecoach/
+│       │   ├── data/
+│       │   │   ├── local/
+│       │   │   │   ├── dao/
+│       │   │   │   ├── entities/
+│       │   │   │   ├── database/
+│       │   │   │   └── preferences/
+│       │   │   ├── remote/
+│       │   │   │   ├── api/
+│       │   │   │   ├── dto/
+│       │   │   │   ├── interceptors/
+│       │   │   │   └── services/
+│       │   │   ├── repository/
+│       │   │   └── sync/
+│       │   ├── di/
+│       │   │   ├── modules/
+│       │   │   └── qualifiers/
+│       │   ├── domain/
+│       │   │   ├── engine/
+│       │   │   │   ├── stockfish/
+│       │   │   │   └── lczero/
+│       │   │   ├── bot/
+│       │   │   │   ├── personalities/
+│       │   │   │   └── voicepacks/
+│       │   │   ├── model/
+│       │   │   ├── repository/
+│       │   │   ├── usecase/
+│       │   │   └── game/
+│       │   ├── ui/
+│       │   │   ├── theme/
+│       │   │   ├── components/
+│       │   │   │   ├── board/
+│       │   │   │   └── common/
+│       │   │   ├── screens/
+│       │   │   │   ├── home/
+│       │   │   │   ├── training/
+│       │   │   │   ├── battlefield/
+│       │   │   │   ├── profile/
+│       │   │   │   └── settings/
+│       │   │   └── navigation/
+│       │   ├── util/
+│       │   │   ├── extensions/
+│       │   │   └── constants/
+│       │   └── BattleCoachApplication.kt
+│       └── res/
+│           ├── drawable/
+│           ├── values/
+│           │   ├── themes/
+│           │   ├── strings/
+│           │   └── colors/
+│           └── xml/ 
+└── build.gradle.kts 
